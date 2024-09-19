@@ -1,4 +1,4 @@
-module github.com/graytonio/flagops-data-store/providers/go
+module github.com/graytonio/flagops-data-store-openfeature-provider-go
 
 go 1.23.0
 
