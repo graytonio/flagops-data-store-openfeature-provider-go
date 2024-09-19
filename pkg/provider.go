@@ -26,6 +26,7 @@ func NewProvider(rawBaseURL string, featureProvider openfeature.FeatureProvider)
 	if err != nil {
 	  return nil, err
 	}
+	baseURL = baseURL.JoinPath("/api")
 	
 	provider := &Provider{
 		httpClient:      &http.Client{},
